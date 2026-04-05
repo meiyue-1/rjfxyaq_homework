@@ -8,6 +8,7 @@ hw1/
 │   ├── lab1.cpp
 │   ├── test.c
 │   ├── test.ll
+|   ├── test
 │   └── output.ll
 ├── lab2/
 │   └── mycc.cpp
@@ -23,6 +24,8 @@ hw1/
 **test.c**：用于测试插桩效果的 C 语言原始代码。
 
 **test.ll**：由 `test.c` 编译生成的**原始 LLVM IR 文件**，包含未修改的加法指令 `add`。
+
+**test**: 最终的可执行文件
 
 **output.ll**：经过 `lab1` 插桩后生成的**最终 IR 文件**，加法已替换为 `NewAdd` 调用。
 
